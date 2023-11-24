@@ -7,38 +7,49 @@ using Microsoft.Extensions.Logging;
 
 namespace ProEventos.API.Controllers
 {
+
     [ApiController]
     [Route("Api/[controller]")]
     public class EventoController : ControllerBase
     {
-        public EventoController()
-        {
+        public readonly DataContext _Context;
 
+        public EventoController(DataContext context)
+        {
+            _Context = context;
         }
 
         [HttpGet]
-        public string Get()
+        public IEnumerable<Evento> Get()
         {
-            return "Deu certo get";  
+
+            return _Context.Eventos;
+        }
+
+        [HttpGet("{id}")]
+        public IEnumerable<Evento> GetById(int id)
+        {
+
+            return _Context.Eventos.Where(x=>x.EventoId == id);
         }
 
         [HttpPost]
         public string Post()
         {
-            return $"Deu certo post";  
+            return $"Deu certo post";
         }
 
 
         [HttpPut("{id}")]
         public string Put(int id)
         {
-            return $"Deu certo put {id}";  
+            return $"Deu certo put {id}";
         }
 
         [HttpDelete("{id}")]
         public string Delete(int id)
         {
-            return $"Deu certo delete {id}";  
+            return $"Deu certo delete {id}";
         }
     }
 }

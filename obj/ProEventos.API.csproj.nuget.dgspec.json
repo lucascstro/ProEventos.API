@@ -1,32 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ProjetosProgramacao\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
+    "/Users/lucascastro/Projetos/desenv/CSharp/ProEventos.API/ProEventos.API.csproj": {}
   },
   "projects": {
-    "E:\\ProjetosProgramacao\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {
+    "/Users/lucascastro/Projetos/desenv/CSharp/ProEventos.API/ProEventos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProjetosProgramacao\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectUniqueName": "/Users/lucascastro/Projetos/desenv/CSharp/ProEventos.API/ProEventos.API.csproj",
         "projectName": "ProEventos.API",
-        "projectPath": "E:\\ProjetosProgramacao\\ProEventos\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
-        "packagesPath": "C:\\Users\\lukas\\.nuget\\packages\\",
-        "outputPath": "E:\\ProjetosProgramacao\\ProEventos\\Back\\src\\ProEventos.API\\obj\\",
+        "projectPath": "/Users/lucascastro/Projetos/desenv/CSharp/ProEventos.API/ProEventos.API.csproj",
+        "packagesPath": "/Users/lucascastro/.nuget/packages/",
+        "outputPath": "/Users/lucascastro/Projetos/desenv/CSharp/ProEventos.API/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/lucascastro/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,6 +40,26 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
             },
@@ -73,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
