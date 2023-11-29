@@ -1,0 +1,17 @@
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/bin/Debug/net8.0/ProEventos.Application.deps.json
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/bin/Debug/net8.0/ProEventos.Application.dll
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/bin/Debug/net8.0/ProEventos.Application.pdb
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/obj/Debug/net8.0/ProEventos.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/obj/Debug/net8.0/ProEventos.Application.AssemblyInfoInputs.cache
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/obj/Debug/net8.0/ProEventos.Application.AssemblyInfo.cs
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/obj/Debug/net8.0/ProEventos.Application.csproj.CoreCompileInputs.cache
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/obj/Debug/net8.0/ProEventos.Application.dll
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/obj/Debug/net8.0/refint/ProEventos.Application.dll
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/obj/Debug/net8.0/ProEventos.Application.pdb
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/obj/Debug/net8.0/ref/ProEventos.Application.dll
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/bin/Debug/net8.0/ProEventos.Domain.dll
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/bin/Debug/net8.0/ProEventos.Persistence.dll
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/bin/Debug/net8.0/ProEventos.Domain.pdb
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/bin/Debug/net8.0/ProEventos.Persistence.pdb
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/obj/Debug/net8.0/ProEventos.Application.csproj.AssemblyReference.cache
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/obj/Debug/net8.0/ProEventos.Application.csproj.CopyComplete
