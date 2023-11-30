@@ -4,8 +4,8 @@ public class Evento
 {
     public int Id { get; set; }
     public String Local { get; set; }
-    public DateTime? DataEvento{ get; set; }
-    public String Tema{ get; set; }
+    public DateTime? DataEvento { get; set; }
+    public String Tema { get; set; }
     public int QtdPessoas { get; set; }
     public String ImageUrl { get; set; }
     public String Telefone { get; set; }

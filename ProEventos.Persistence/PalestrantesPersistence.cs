@@ -24,7 +24,7 @@ namespace ProEventos.Persistence
                                         .Include(e => e.RedesSociais);
             if (includesEventos)
             {
-                query.Include(e => e.PalestranteEventos)
+                query.AsNoTracking().Include(e => e.PalestranteEventos)
                       .ThenInclude(pe => pe.Evento);
             }
             return await query.ToArrayAsync();
@@ -40,7 +40,7 @@ namespace ProEventos.Persistence
                       .ThenInclude(pe => pe.Evento);
             }
 
-            query = query.OrderBy(e => e.Nome)
+            query = query.AsNoTracking().OrderBy(e => e.Nome)
                     .Where(e => e.Nome.ToLower() == nome.ToLower());
 
             return await query.ToArrayAsync();
@@ -56,7 +56,7 @@ namespace ProEventos.Persistence
                       .ThenInclude(pe => pe.Evento);
             }
 
-            query = query.OrderBy(e => e.Nome)
+            query = query.AsNoTracking().OrderBy(e => e.Nome)
                     .Where(e => e.Id == palestranteId);
 
             return await query.ToArrayAsync();

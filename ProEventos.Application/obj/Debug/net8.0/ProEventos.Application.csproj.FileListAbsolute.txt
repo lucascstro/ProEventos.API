@@ -15,3 +15,4 @@
 /Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/bin/Debug/net8.0/ProEventos.Persistence.pdb
 /Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/obj/Debug/net8.0/ProEventos.Application.csproj.AssemblyReference.cache
 /Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/obj/Debug/net8.0/ProEventos.Application.csproj.CopyComplete
+/Users/lucascastro/Projetos/desenv/CSharp/ProEventos/ProEventos.Application/obj/Debug/net8.0/ProEventos.Application.sourcelink.json
